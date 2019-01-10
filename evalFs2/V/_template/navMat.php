@@ -1,0 +1,31 @@
+
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Logo</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <i class="material-icons">X</i>
+        </div>
+      </form></li>
+        </ul>
+        
+      </div>
+    </nav>
+  </div>
+        <script>
+  // Or with jQuery
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+        
+            </script>
